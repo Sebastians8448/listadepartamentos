@@ -1,9 +1,12 @@
 CREATE TABLE mascota (
-    id
+    id_mascota,
+    raza, nombre,vacunas,
+    especie,
+    id_residente
 )
 
 
-INSER INTO mascotas (id_mascota, raza, nombre,vacunas, especie, id_residente)
+INSER INTO mascotas (id_mascota, raza, nombre, vacunas, especie, id_residente)
 values ('110458', 'Pitbull', 'Firulais', 'si', 'Perro', '1107837744');
 
 INSER INTO parqueadero (num_parqueadero, matricula, area)
