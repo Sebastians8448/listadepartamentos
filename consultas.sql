@@ -1,5 +1,10 @@
-INSER INTO mascotas (raza, nombre,vacunas, especie, id_residente)
-values ('Pitbull', 'Firulais', 'si', 'Perro', '1107837744');
+CREATE TABLE mascota (
+    id
+)
+
+
+INSER INTO mascotas (id_mascota, raza, nombre,vacunas, especie, id_residente)
+values ('110458', 'Pitbull', 'Firulais', 'si', 'Perro', '1107837744');
 
 INSER INTO parqueadero (num_parqueadero, matricula, area)
 values ('2022', '4845', '20');
