@@ -1,11 +1,3 @@
-CREATE TABLE mascota (
-    id_mascota,
-    raza, nombre,vacunas,
-    especie,
-    id_residente
-)
-
-
 INSER INTO mascotas (id_mascota, raza, nombre, vacunas, especie, id_residente)
 values ('110458', 'Pitbull', 'Firulais', 'si', 'Perro', '1107837744');
 
